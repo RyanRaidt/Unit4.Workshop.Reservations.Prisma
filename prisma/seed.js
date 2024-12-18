@@ -27,19 +27,19 @@ const seed = async () => {
       {
         customerId: 1,
         restaurantId: 1,
-        date: new Date("2024-07-01"),
+        date: new Date("2024-12-18"),
         partyCount: 4,
       },
       {
         customerId: 2,
         restaurantId: 2,
-        date: new Date("2024-07-02"),
+        date: new Date("2024-12-18"),
         partyCount: 2,
       },
       {
         customerId: 3,
         restaurantId: 3,
-        date: new Date("2024-07-03"),
+        date: new Date("2024-12-18"),
         partyCount: 6,
       },
     ];
