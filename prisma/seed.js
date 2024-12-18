@@ -28,7 +28,7 @@ const seed = async () => {
         customerId: 1,
         restaurantId: 1,
         date: new Date("2024-12-18"),
-        partyCount: 4,
+        partyCount: 3,
       },
       {
         customerId: 2,
@@ -40,7 +40,7 @@ const seed = async () => {
         customerId: 3,
         restaurantId: 3,
         date: new Date("2024-12-18"),
-        partyCount: 6,
+        partyCount: 1,
       },
     ];
     await prisma.reservation.createMany({ data: reservations });
